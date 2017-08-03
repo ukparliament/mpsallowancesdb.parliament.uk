@@ -1,0 +1,20 @@
+﻿#azmenu li
+{
+	display: inline;
+	margin: 0;
+	padding: 0;
+	
+}
+
+#mainContents img {
+	margin-bottom:0px;
+	margin-top:0px;
+	margin-left: 0px;
+	margin-right: 5px;
+}
+
+.hidden 
+{
+	display:none;
+}
+
