@@ -17,6 +17,7 @@ deploy_to_release:
 	aws s3 sync \
 		--exclude mpslordsandoffices/* \
 		--exclude ".git/*" \
+		--exclued "gocd/*" \
 		--exclude "Makefile" \
 		--exclude "README.md" \
 		--acl=public-read --delete . s3://$(AWS_ACCOUNT).mps-allowancesdb
