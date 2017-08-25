@@ -1,9 +1,9 @@
 pipelines:
-  mps-allowances-db:
+  mps-allowancesdb:
     group: common
     label_template: "${COUNT}"
     materials:
-      mps-allowances-db-git:
+      mps-allowancesdb-git:
         git: https://github.com/ukparliament/mpsallowances.parliament.uk.git
         branch: development
         auto_update: true
@@ -21,4 +21,4 @@ pipelines:
 environments:
   Web.DEVCI:
     pipelines:
-      - mps-allowances-db
+      - mps-allowancesdb
