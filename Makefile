@@ -18,7 +18,7 @@ deploy_to_release:
 		--exclude Allowances/* \
 		--exclude Documents/* \
 		--exclude ".git/*" \
-		--exclued "gocd/*" \
+		--exclude "gocd/*" \
 		--exclude "Makefile" \
 		--exclude "README.md" \
 		--acl=public-read --delete . s3://$(AWS_ACCOUNT).mps-allowancesdb
