@@ -15,7 +15,8 @@ checkout_to_release:
 
 deploy_to_release:
 	aws s3 sync \
-		--exclude mpslordsandoffices/* \
+		--exclude Allowances/* \
+		--exclude Documents/* \
 		--exclude ".git/*" \
 		--exclued "gocd/*" \
 		--exclude "Makefile" \
