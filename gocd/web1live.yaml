@@ -25,6 +25,6 @@ pipelines:
                       - deploy_to_release
 
 environments:
-  Web.LIVE:
+  WebLIVE:
     pipelines:
       - mps-allowancesdb
